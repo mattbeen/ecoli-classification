@@ -1,5 +1,7 @@
 # ecoli-classification
 
+[This is a project in a course work of data mining]
+
 In this project, we are applying data mining techniques to real-world situation. A dataset contains expression data and functional data of 1500 genes of E. coli, a bacterium that found in lower intestine of warm-blooded organisms is used.
 
 The dataset is constructed of 3 nominal features and 103 numerical features with missing values. Binary class label in “Target” column indicate whether gene has the function “Cell communication”.
