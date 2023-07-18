@@ -18,15 +18,24 @@ For normalization, no normalization, min-max normalization and standization will
 To find the best combination of pre-processing technique, cross validation with default setting of decision tree of sklearn as learner. 10-fold cross validation will be performed and the average accuracy will be used to evaluate the combination for training the best model for classifer and hyperparameter tuning.
 
 Combinations (Outlier Detection & Normalization):
-Density-based Only
-Density-based + Min-max
-Density-based + Standardization
-Isolation-based Only
-Isolation-based + Min-max
-Isolation-based + Standardization
-Min-max Only
-Standardization Only
-No outlier detection + No normalization
+
+1) Density-based Only
+
+2) Density-based + Min-max
+
+3) Density-based + Standardization
+
+4) Isolation-based Only
+
+5) Isolation-based + Min-max
+
+6) Isolation-based + Standardization
+
+7) Min-max Only
+
+8) Standardization Only
+
+9) No outlier detection + No normalization
 
 
 With the best combination of pre-processing, we will perform train-test split on the pre-processed dataset. This is used to evaluate the performance of the classifer. The train-test split ratio is 80/20 where 80% to training and 20% to testing. The training set will be used to train and validate the classifer while test set will be used to test the generalization power of the classifer.
